@@ -52,7 +52,6 @@ export default class Board extends Component{
     const columns = this.parseInput(this.state.columns);
 
     if (!this.validateDimension(rows) || !this.validateDimension(columns)) {
-      console.log('hello')
       return null;
     }
 
